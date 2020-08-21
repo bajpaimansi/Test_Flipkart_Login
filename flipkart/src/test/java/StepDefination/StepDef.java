@@ -25,8 +25,8 @@ public class StepDef{
 	 public void user_enters_Username_and_Password() throws Throwable 
 	 {
 		 driver.findElement(By.xpath("//input[@type='text' and @class='_2zrpKA _1dBPDZ']")).sendKeys("Mansi") ; 
-		 driver.findElement(By.xpath("//input[@type='password' and @class='_2zrpKA _3v41xv _1dBPDZ']")).sendKeys("password"); 
-		 driver.findElement(By.xpath("//*[@type='submit' and @class='_2AkmmA _1Lctnl _7UHT_c']")).click();
+		 driver.findElement(By.xpath("//input[@type='password' and @class='_2zrpKA _3v41xv _1dBPDZ']")).sendKeys("Mansi"); 
+		 driver.findElement(By.xpath("//*[@type='submit' and @class='_2AkmmA _1LctnI _7UHT_c']")).click();
 	}
 	 @Then("^Login should not be sucessful and Verify error message$")
 	 public void login_should_not_be_sucessful_and_Verify_error_message() throws Throwable 
